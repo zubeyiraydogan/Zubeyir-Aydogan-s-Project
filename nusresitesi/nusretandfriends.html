@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nusret And Friends</title>
+<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <!--bu-site-mobil-cihazlar-için-uygun-değil--->
+</head>
+<body>
+<section>
+<div class="circle"></div>
+<header>
+    <a href="#"><img src="resim/nüsreee.png"  class="logo"></a>
+    <ul class="navigation">
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutnusret.html">About Nusret</a></li>
+<li><a href="nusretandfriends.html">Nusret & Friends</a></li>
+<li><a href="https://www.youtube.com/watch?v=tg00YEETFzg">Nusret's Favorite Song</a></li>
+    </ul>
+
+</header>
+<div class="content">
+    <div class="textBox">
+        <h2>Nusret(AKA 'YUSUF')'s</h2>
+        <p>2nd Favorite </p>
+        <a href="https://www.youtube.com/watch?v=Ys7-6_t7OEQ">Song</a>
+    </div>
+    <div class="imgBox">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="resim/nusret333.png" alt="" srcset=""></div>
+
+                <div class="swiper-slide"><img src="resim/aziz ayak3.png" alt="" srcset=""></div>
+              <div class="swiper-slide"><img id="zubeyirtost" src="resim/tost.png" alt="" srcset=""></div>
+              <div class="swiper-slide" ><img id="zubeyirtost" src="resim/gobeklitepe.png" alt="" srcset=""></div>
+             
+            </div>
+            
+          </div>
+    </div>
+</div>
+
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+    
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflow: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows : true
+    },
+    pagination: {el: '.swiper-pagination', }
+   
+  });</script>
+</body>
+
+</html>

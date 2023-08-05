@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;0,900;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+
+}
+.navbar{
+    display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 20PX;
+}
+.navbar .logo img{
+    width: 200px;
+    padding-right: 50px;
+height: 120px;
+}
+nav ul li{
+    display: inline-block;
+   padding: 25px;
+
+}
+nav li a{
+    color: #42220c;
+    font-weight: 600;
+}
+nav{
+    margin-right: 35%;
+   
+}
+.icon i{
+    font-size: 25px;
+    
+}
+.row{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.col-2{
+    flex-basis: 50%; 
+}
+.container .box{
+    width: 500px;
+    height: 500px;
+    margin-top: -30px;
+    position: relative;
+    margin-left: 4rem;
+}
+.container .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+
+
+}
+.container .box video{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+.col-2 h1{
+    font-size: 5rem;
+    color:aqua;
+  
+}
+.col-2 span{
+    font-size: 7rem;
+    margin-left: 50px!important;
+    line-height: 100px;
+ margin: 40px 0px;
+}
+
+.btn{
+display: inline-block;
+color: #fff;
+background-color: rgb(185, 59, 21);
+padding: 8px 30px;
+border-radius: 30px;
+margin-top: 10px;
+margin-left: 70%;
+}
